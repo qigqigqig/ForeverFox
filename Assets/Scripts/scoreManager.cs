@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class scoreManager : MonoBehaviour {
     public Text scoreText;
     public Text hiText;
+	public gameManager theGameManager;
+
+	public Text deathText;
     public float score;
     public float hiscore;
     public float pointsPerSecond;
@@ -39,6 +42,7 @@ public class scoreManager : MonoBehaviour {
         scoreText.text = "Score: " + Mathf.Round(score);
         hiText.text = "High Score: " + Mathf.Round(hiscore);
         livesText.text = " " + lives;
+		deathText.text = "Death Cause: " + theGameManager.deathCause;
     }
 
     public void addScore(int value)

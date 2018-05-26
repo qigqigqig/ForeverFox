@@ -421,6 +421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 702248628}
   hiText: {fileID: 761961587}
+  theGameManager: {fileID: 2127189270}
+  deathText: {fileID: 1677981047}
   score: 0
   hiscore: 0
   pointsPerSecond: 5
@@ -527,6 +529,7 @@ RectTransform:
   - {fileID: 1092154874}
   - {fileID: 1732021124}
   - {fileID: 2065223338}
+  - {fileID: 1677981046}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1277,6 +1280,84 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 616076190}
   m_Script: {fileID: 11500000, guid: d10ec128bff5c6a4d9be9f699772b53a, type: 3}
+--- !u!1 &1677981045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1471909863956884, guid: d1321bc49c819d14091de3a8e8c51440,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1677981046}
+  - component: {fileID: 1677981048}
+  - component: {fileID: 1677981047}
+  m_Layer: 5
+  m_Name: deathCause
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1677981046
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224177374869840116, guid: d1321bc49c819d14091de3a8e8c51440,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677981045}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15, y: 161, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 332485714}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -15, y: -64}
+  m_SizeDelta: {x: 500, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1677981047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114608741026129566, guid: d1321bc49c819d14091de3a8e8c51440,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677981045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 22
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Death Cause:'
+--- !u!222 &1677981048
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222500748307154158, guid: d1321bc49c819d14091de3a8e8c51440,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677981045}
 --- !u!1 &1725698143
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2277,7 @@ MonoBehaviour:
   Chicken: {fileID: 1862401520936576, guid: fa03349873644984ba9bcb013ee3e4c1, type: 2}
   forestSpawned: 0
   genSpawn: 
+  deathCause: 
   mountains:
   - {fileID: 1759022926202826, guid: 98eff033755cdec4b8e347801f972bab, type: 2}
   - {fileID: 1002819246233324, guid: f670a5ed51d1f284187927da2c16157c, type: 2}

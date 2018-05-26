@@ -19,6 +19,7 @@ public class gameManager : MonoBehaviour {
 	public GameObject Chicken;
     public bool forestSpawned;
     public string genSpawn;
+	public string deathCause;
     public GameObject[] mountains;
     public GameObject[] fEnemies;
 	public int chickenCounter = 1;
@@ -60,7 +61,7 @@ public class gameManager : MonoBehaviour {
         genSpawn = "Forest";
         generateWorld();
         generateSky();
-		generateChickens();
+	//	generateChickens();
        // generateMountain();
        // spawnEnemies();
         beachSpawned = false;
@@ -89,7 +90,7 @@ public class gameManager : MonoBehaviour {
             skyCounter2 = 0;
             generateWorld();
             generateSky();
-			generateChickens();
+			//generateChickens();
          //   generateMountain();
             xPos = xPos + 1;
         }
@@ -557,7 +558,7 @@ public class gameManager : MonoBehaviour {
             skyCounter = 0;
             generateWorld();
             generateSky();
-			generateChickens ();
+		//	generateChickens ();
          //   generateMountain();
             yield return new WaitForSeconds(1.0f);
 
