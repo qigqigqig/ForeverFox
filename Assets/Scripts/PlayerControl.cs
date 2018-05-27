@@ -124,6 +124,7 @@ public class PlayerControl : MonoBehaviour {
        // Debug.Log(speed2);
         if (speed2 < 0.5 && theGameManager.isDead == false)
         {
+			theGameManager.deathCause = "Hit a wall";
             theGameManager.restartGame();
 
 
@@ -163,6 +164,7 @@ public class PlayerControl : MonoBehaviour {
         if (other.gameObject.tag == "killbox") 
       {
       //Debug.Log("testing");
+			theGameManager.deathCause = "Enemy/Rock/Falling Down";
        theGameManager.restartGame();
 
       }
