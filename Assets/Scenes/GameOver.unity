@@ -139,15 +139,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 7744220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 225, y: 111, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: 192, y: 143, z: 0}
+  m_LocalScale: {x: 3.829947, y: 3.829946, z: 1.5319784}
   m_Children: []
   m_Father: {fileID: 129557649}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225, y: 111}
+  m_AnchoredPosition: {x: 192, y: 143}
   m_SizeDelta: {x: 75, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &7744222
@@ -181,6 +181,9 @@ MonoBehaviour:
   anim: {fileID: 7744222}
   Button1: {fileID: 7744224}
   Button2: {fileID: 0}
+  pauseObjects: []
+  pauseText: {fileID: 0}
+  menuButton: {fileID: 0}
 --- !u!114 &7744224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,7 +340,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 129557645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 415.5, y: 225, z: 0}
+  m_LocalPosition: {x: 537.5, y: 336, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7744221}
@@ -377,15 +380,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 826784471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 230, y: 41, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: 196.65999, y: 52.761, z: 0}
+  m_LocalScale: {x: 3.829947, y: 3.829946, z: 1.5319784}
   m_Children: []
   m_Father: {fileID: 129557649}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230, y: 41}
+  m_AnchoredPosition: {x: 196.65999, y: 52.761}
   m_SizeDelta: {x: 75, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &826784473
@@ -419,6 +422,9 @@ MonoBehaviour:
   anim: {fileID: 826784473}
   Button1: {fileID: 826784475}
   Button2: {fileID: 0}
+  pauseObjects: []
+  pauseText: {fileID: 0}
+  menuButton: {fileID: 0}
 --- !u!114 &826784475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,7 +686,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.6292624
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -702,7 +708,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1955043380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -0.54, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
