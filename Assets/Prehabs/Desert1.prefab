@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 61712653590660224}
   - component: {fileID: 114189402584931894}
   - component: {fileID: 50802169861188706}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (1)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 61471278219598208}
   - component: {fileID: 114408677041931692}
   - component: {fileID: 50517865529608940}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ Transform:
   m_GameObject: {fileID: 1047382492217420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.53, y: -0.61, z: 0}
-  m_LocalScale: {x: 0.093333334, y: 0.093333334, z: 1}
+  m_LocalScale: {x: 0.085, y: 0.085, z: 1}
   m_Children: []
   m_Father: {fileID: 4926319974194956}
   m_RootOrder: 2
@@ -317,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 1739820247901262}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.48, y: -0.61, z: 0}
-  m_LocalScale: {x: 0.093333334, y: 0.093333334, z: 1}
+  m_LocalScale: {x: 0.085, y: 0.085, z: 1}
   m_Children: []
   m_Father: {fileID: 4926319974194956}
   m_RootOrder: 1
@@ -329,7 +329,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1617098183118792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -718.92224, y: 578.5201, z: 0}
+  m_LocalPosition: {x: 736.725, y: 0.7514135, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4720661042947450}
@@ -514,7 +514,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.132681, y: -0.07476181}
+  m_Offset: {x: 2.132681, y: -0.063857496}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -525,7 +525,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5802006, y: 0.30921268}
+  m_Size: {x: 1.5802007, y: 0.28740406}
   m_EdgeRadius: 0
 --- !u!61 &61138580581083594
 BoxCollider2D:
@@ -589,7 +589,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -14.6615505, y: -1.4233959}
+  m_Offset: {x: -11.409896, y: -1.4233959}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -600,7 +600,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.77226, y: 0.7432084}
+  m_Size: {x: 5.2689495, y: 0.7432084}
   m_EdgeRadius: 0
 --- !u!61 &61471278219598208
 BoxCollider2D:
