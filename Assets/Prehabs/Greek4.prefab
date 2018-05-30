@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 61172026615997898}
   - component: {fileID: 114211980182859308}
   - component: {fileID: 50909719612497370}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (1)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 61444694648945976}
   - component: {fileID: 114319994835235380}
   - component: {fileID: 50829584738408998}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (2)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ Transform:
   m_GameObject: {fileID: 1448092125613868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.51, y: -0.64, z: 0}
-  m_LocalScale: {x: 0.096666664, y: 0.096666664, z: 1}
+  m_LocalScale: {x: 0.085, y: 0.085, z: 1}
   m_Children: []
   m_Father: {fileID: 4497703645519336}
   m_RootOrder: 1
@@ -175,7 +175,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1313299112205110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -427.68463, y: 590.7856, z: 0}
+  m_LocalPosition: {x: 118.04156, y: -373.23856, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4693623063371326}

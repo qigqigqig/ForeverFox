@@ -14,6 +14,8 @@ public class PlayerControl : MonoBehaviour {
     private Vector2 lastPos;
     private Animator myAnimator;
     public gameManager theGameManager;
+	public GameObject fireFly;
+	public GameObject spawnManager;
     public Transform groundCheck;
     public float checkRadius;
     public float speedMulti;
@@ -42,6 +44,7 @@ public class PlayerControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		fireFly = GameObject.Find ("FireFlySpawner");	
         myRigidbody = GetComponent<Rigidbody2D>();
         myCollider = GetComponent<Collider2D>();
         myAnimator = GetComponent<Animator>();
@@ -124,6 +127,7 @@ public class PlayerControl : MonoBehaviour {
        // Debug.Log(speed2);
         if (speed2 < 0.5 && theGameManager.isDead == false)
         {
+			
 			theGameManager.deathCause = "Hit a wall";
             theGameManager.restartGame();
 

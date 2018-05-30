@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 61287885062839672}
   - component: {fileID: 114712289845917338}
   - component: {fileID: 50439343480778150}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 61098095880089432}
   - component: {fileID: 114635862206138438}
   - component: {fileID: 50998126374050504}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (1)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1595155706451608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.03554, y: 99.5623, z: 0}
+  m_LocalPosition: {x: 117.39242, y: -159.1621, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4280872711284146}
@@ -434,7 +434,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.0136538, y: -1.4525838}
+  m_Offset: {x: 7.0136538, y: -1.4386865}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -445,7 +445,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7526917, y: 0.6848326}
+  m_Size: {x: 1.7526913, y: 0.7126272}
   m_EdgeRadius: 0
 --- !u!61 &61254186683318372
 BoxCollider2D:

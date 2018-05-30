@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 61990799243468360}
   - component: {fileID: 114471393556761458}
   - component: {fileID: 50926484009213964}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (5)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 61992849978852144}
   - component: {fileID: 114844051396427598}
   - component: {fileID: 50417449218280872}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (4)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 61781635662369472}
   - component: {fileID: 114179323900158956}
   - component: {fileID: 50234408436361296}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 61781394859828434}
   - component: {fileID: 114297227671660732}
   - component: {fileID: 50743065717523136}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (1)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 61721017737566440}
   - component: {fileID: 114541659706151266}
   - component: {fileID: 50523467995763740}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (2)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 61641442818735720}
   - component: {fileID: 114976463606995916}
   - component: {fileID: 50440947656916818}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Chicken (3)
   m_TagString: world
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1591508450325998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -672.2048, y: 581.3888, z: 0}
+  m_LocalPosition: {x: 1013.5115, y: -3.7925196, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4167504017547104}
@@ -429,7 +429,7 @@ Transform:
   m_GameObject: {fileID: 1752697735084686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.57, y: -0.61, z: 0}
-  m_LocalScale: {x: 0.093333334, y: 0.093333334, z: 1}
+  m_LocalScale: {x: 0.085, y: 0.085, z: 1}
   m_Children: []
   m_Father: {fileID: 4047895891835566}
   m_RootOrder: 1

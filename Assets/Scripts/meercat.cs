@@ -8,15 +8,16 @@ public class meercat : MonoBehaviour {
     // Use this for initialization
     void Start () {
         myAnimator = GetComponent<Animator>();
+		fox = GameObject.Find("Player");
 
     }
 
     // Update is called once per frame
     void Update () {
-        //Debug.Log(Vector3.Distance(this.transform.position, fox.transform.position));
+      //  Debug.Log(Vector3.Distance(this.transform.position, fox.transform.position));
         if ((Vector3.Distance(this.transform.position, fox.transform.position)) <= 5)
         {
-            //Debug.Log("HI");
+      //      Debug.Log("HI");
             myAnimator.SetBool("close", true);
 
 
