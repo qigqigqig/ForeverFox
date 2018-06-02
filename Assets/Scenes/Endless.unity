@@ -939,7 +939,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024562931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.55, y: -1.14, z: -10}
+  m_LocalPosition: {x: 1.61, y: -0.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1346,7 +1346,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180885393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85, y: -1.16, z: 0}
+  m_LocalPosition: {x: 7.05, y: -1.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1750509009}
@@ -1365,8 +1365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platforms:
   - {fileID: 1194827099769668, guid: cc22a803ffd32754ca4aaa666a3d0b48, type: 2}
-  spawnMin: 1
-  spawnMax: 2
+  spawnMin: 0.5
+  spawnMax: 1
   spawners: {fileID: 0}
   canSpawn: 1
 --- !u!61 &1180885396
