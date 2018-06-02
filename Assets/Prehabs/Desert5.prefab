@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 61003237387165066}
   - component: {fileID: 61057310986196724}
   - component: {fileID: 114415394769645600}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Desert5
   m_TagString: world
   m_Icon: {fileID: 0}
