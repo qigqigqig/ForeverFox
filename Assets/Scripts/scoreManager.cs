@@ -10,11 +10,13 @@ public class scoreManager : MonoBehaviour {
 
 	public Text deathText;
     public float score;
+	public int chickens;
     public float hiscore;
     public float pointsPerSecond;
     public bool scoreIncreasing;
     public int lives;
     public Text livesText;
+	public Text chickenText;
 
 
 	// Use this for initialization
@@ -43,6 +45,7 @@ public class scoreManager : MonoBehaviour {
         hiText.text = "High Score: " + Mathf.Round(hiscore);
         livesText.text = " " + lives;
 		deathText.text = "Death Cause: " + theGameManager.deathCause;
+		chickenText.text = " " + chickens;
     }
 
     public void addScore(int value)

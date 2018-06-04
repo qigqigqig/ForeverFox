@@ -24,6 +24,7 @@ public class Trigger : MonoBehaviour {
 		if (other.gameObject.name == "Player")
 		{
 		theScore.addScore(5);
+			theScore.chickens = theScore.chickens + 1;
 
 			this.transform.parent.gameObject.SetActive (false);
 

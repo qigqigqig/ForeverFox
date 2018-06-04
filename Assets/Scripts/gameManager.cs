@@ -548,6 +548,7 @@ public class gameManager : MonoBehaviour {
             thePlayer.milestone = thePlayer.milestoneStore;
             thePlayer.milestoneCount = thePlayer.milestonecountStore;
             score.score = 0;
+			score.chickens = 0;
             score.scoreIncreasing = true;
             thePlayer.isduck = false;
             thePlayer.duckManager.duck = false;
@@ -556,13 +557,14 @@ public class gameManager : MonoBehaviour {
             mountainCounter2 = 0;
 			chickenCounter = 1;
             skyCounter = 0;
-            generateWorld();
             generateSky();
 		//	generateChickens ();
          //   generateMountain();
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(0.5f);
 
             thePlayer.gameObject.SetActive(true);
+			generateWorld();
+
 
 
 

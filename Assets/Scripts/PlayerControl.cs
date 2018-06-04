@@ -125,7 +125,7 @@ public class PlayerControl : MonoBehaviour {
         speed2 = myRigidbody.velocity.magnitude;
 
        // Debug.Log(speed2);
-        if (speed2 < 0.5 && theGameManager.isDead == false)
+        if (speed2 < 0.0 && theGameManager.isDead == false)
         {
 			
 			theGameManager.deathCause = "Hit a wall";
