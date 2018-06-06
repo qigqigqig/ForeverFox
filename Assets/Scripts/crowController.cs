@@ -25,6 +25,11 @@ public class crowController : MonoBehaviour {
             myRigidbody.velocity = new Vector2(speed, myRigidbody.velocity.y);
             
         }
+		if (!GetComponent<Renderer>().isVisible)
+		{
+			myRigidbody.velocity = new Vector2(0, myRigidbody.velocity.y);
+
+		}
         if (this.gameObject.tag == "enemyiskill")
         {
          //   Debug.Log("Killlllll");
