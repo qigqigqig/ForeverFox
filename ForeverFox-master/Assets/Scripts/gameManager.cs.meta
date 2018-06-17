@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 15f0efbf7a638d240813cf56a2dd25ce
+timeCreated: 1519886138
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - thePlayer: {instanceID: 0}
+  - score: {instanceID: 0}
+  - crow: {fileID: 1465504088965850, guid: 1a0daf37b35b3514a8860a5d2ed324ed, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
