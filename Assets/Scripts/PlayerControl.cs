@@ -137,7 +137,7 @@ public class PlayerControl : MonoBehaviour {
 
         //grounded = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
         grounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
-        if (transform.position.x > milestoneCount)
+        if (transform.position.x > milestoneCount && speed < 15)
         {
 
             milestoneCount += milestone;
