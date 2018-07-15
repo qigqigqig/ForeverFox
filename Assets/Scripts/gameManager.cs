@@ -40,6 +40,7 @@ public class gameManager : MonoBehaviour {
     public GameObject seagull;
     public GameObject sky;
     public GameObject scorpion;
+    private Vector3 startPos = new Vector3(17.58f, 0.52f, 0);
     public GameObject vulture;
     public int counter;
     public GameObject[] bEnemies;
@@ -380,8 +381,12 @@ public class gameManager : MonoBehaviour {
            randomNumbers[counter] = UnityEngine.Random.Range(0, 10);
             if (counter == 0 && fullLoop == 0)
             {
-
-                fGen[0] = Instantiate(fDefault[0], new Vector3(17.58f, 0.52f, 0), Quaternion.identity);
+                  //GameObject foreststart = ObjectPooler.SharedInstance.GetPooledObject("Forest1(Clone)");
+                   //Debug.Log("Testing pooler:" + ObjectPooler.SharedInstance.GetPooledObject("Forest1(Clone)"));
+                  //foreststart.SetActive(true);
+                //foreststart.transform.position = startPos;
+                   fGen[0] = Instantiate(fDefault[0], new Vector3(17.58f, 0.52f, 0), Quaternion.identity);
+                //fGen[0] = foreststart;
             }
             if (counter == 0 && fullLoop == 1)
             {
@@ -392,11 +397,23 @@ public class gameManager : MonoBehaviour {
             }
             if (counter >= 1 && counter != 4)
             {
-                fGen[counter] = Instantiate(fDefault[randomNumbers[counter]], fGen[counter - 1].transform.position + (fGen[counter - 1].transform.right * (fGen[counter - 1].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2 + fDefault[randomNumbers[counter]].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2)), fDefault[counter - 1].transform.rotation);
+             //   int randomValue = UnityEngine.Random.Range(2, 13);
+               // while (randomValue == 1|| randomValue == 8)
+                //{
 
+                  //  randomValue = UnityEngine.Random.Range(2, 13);
+               // }
+                 // GameObject forestContinue = ObjectPooler.SharedInstance.GetPooledObject("Forest" + randomValue + "(Clone)");
+                 // Debug.Log(ObjectPooler.SharedInstance.GetPooledObject("Forest" + randomValue + "(Clone)"));
+                 //forestContinue.SetActive(true);
+                //startPos.x = fGen[counter - 1].transform.position.x + fGen[counter - 1].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2;
+                //forestContinue.transform.position = startPos;
+                // Debug.Log(fGen[counter - 1].gameObject.GetComponent < SpriteRenderer<>().bounds.size.x / 2);
+                   fGen[counter] = Instantiate(fDefault[randomNumbers[counter]], fGen[counter - 1].transform.position + (fGen[counter - 1].transform.right * (fGen[counter - 1].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2 + fDefault[randomNumbers[counter]].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2)), fDefault[counter - 1].transform.rotation);
+                //fGen[counter] = forestContinue;
 
             }
-            if (counter == 4)
+            if (counter == 4)   
             {
 				fGen[counter] = Instantiate(fDefault[11], fGen[counter - 1].transform.position + (fGen[counter - 1].transform.right * ((fGen[counter - 1].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2) - 1 + fDefault[11].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2)), fDefault[counter - 1].transform.rotation);
                 beachSpawner = GameObject.Find("beachSpawnpoint");
