@@ -522,7 +522,7 @@ MonoBehaviour:
   pointsPerSecond: 5
   laps: 0
   scoreIncreasing: 1
-  lives: 4
+  lives: 20
   livesText: {fileID: 994251374}
   chickenText: {fileID: 1585482504}
 --- !u!1 &332485710
