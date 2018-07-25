@@ -13,6 +13,7 @@ public class scoreManager : MonoBehaviour {
 	public int chickens;
     public float hiscore;
     public float pointsPerSecond;
+    public int laps = 0;
     public bool scoreIncreasing;
     public int lives;
     public Text livesText;
@@ -50,7 +51,13 @@ public class scoreManager : MonoBehaviour {
 
     public void addScore(int value)
     {
-        score += value;
-
+        if (laps >= 1)
+        {
+            score = score + value + (laps * 5);
+        }
+        else
+        {
+            score += value;
+        }
     }
 }
