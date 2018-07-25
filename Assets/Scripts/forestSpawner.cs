@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class forestSpawner : MonoBehaviour
 {
-    public gameManager theGameManager; 
-    
+    public gameManager theGameManager;
+    public scoreManager theScoreManager;
     // Use this for initialization
     void Start()
     {
         theGameManager = FindObjectOfType<gameManager>();
+        theScoreManager = FindObjectOfType<scoreManager>();
     }
 
     // Update is called once per frame
@@ -55,11 +56,12 @@ public class forestSpawner : MonoBehaviour
         if (other.gameObject.name == "Player" && this.gameObject.name == "generategreek")
         {
             //            Debug.Log("reee");
+            theScoreManager.laps = theScoreManager.laps + 1;
+
             theGameManager.skyCounter2 = 0;
             theGameManager.mountainCounter2 = 0;
             theGameManager.generateGreek();
             theGameManager.generateSky();
-
 
 
         }

@@ -680,7 +680,7 @@ public class gameManager : MonoBehaviour {
         score.scoreIncreasing = false;
         thePlayer.gameObject.SetActive(false);
         score.lives = score.lives - 1;
-        if (score.lives <= -90)
+        if (score.lives <= 0)
         {
             //Debug.Log("yes");
             SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
