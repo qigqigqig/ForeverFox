@@ -27,7 +27,12 @@ public class forestSpawner : MonoBehaviour
             theGameManager.mountainCounter2 = 0;
             theGameManager.generateForest();
             theGameManager.generateSky();
-        
+            theGameManager.generateSky();
+            theGameManager.generateSky();
+
+            theGameManager.generateSky();
+
+
 
 
         }
@@ -38,7 +43,10 @@ public class forestSpawner : MonoBehaviour
             theGameManager.mountainCounter2 = 0;
             theGameManager.generateBeach();
             theGameManager.generateSky();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
 
+            theGameManager.generateSky();
 
 
         }
@@ -48,6 +56,10 @@ public class forestSpawner : MonoBehaviour
             theGameManager.skyCounter2 = 0;
             theGameManager.mountainCounter2 = 0;
             theGameManager.generateDesert();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
             theGameManager.generateSky();
 
 
@@ -61,6 +73,10 @@ public class forestSpawner : MonoBehaviour
             theGameManager.skyCounter2 = 0;
             theGameManager.mountainCounter2 = 0;
             theGameManager.generateGreek();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
+            theGameManager.generateSky();
             theGameManager.generateSky();
 
 

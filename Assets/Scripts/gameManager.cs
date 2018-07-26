@@ -330,7 +330,7 @@ public class gameManager : MonoBehaviour {
     public void generateSky()
     {
         //  Debug.Log("IS sky being generated???");
-        while (skyCounter2 <= 75)
+        while (skyCounter2 <= 325)
         {
             //    Debug.Log("IS sky being generated???");
             if (skyCounter == 0)
@@ -392,7 +392,7 @@ public class gameManager : MonoBehaviour {
             {
 
                 //fGen[0] = Instantiate(fDefault[0], new Vector3(17.58f, 0.52f, 0), Quaternion.identity);
-                fGen[0] = Instantiate(fDefault[randomNumbers[counter]], gGen[3].transform.position + (gGen[3].transform.right * (gGen[3].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2 + fDefault[randomNumbers[counter]].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2)), gGen[3].transform.rotation);
+                fGen[0] = Instantiate(fDefault[0], gGen[3].transform.position + (gGen[3].transform.right * (gGen[3].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2 + fDefault[0].gameObject.GetComponent<SpriteRenderer>().bounds.size.x / 2)), gGen[3].transform.rotation);
 
             }
             if (counter >= 1 && counter != 4)
